@@ -28,3 +28,8 @@ apb = [
     "y",
     "z",
 ]
+
+for i in range(len(apb)):
+    y = x.count(apb[i])
+
+print(y, end=" ")
